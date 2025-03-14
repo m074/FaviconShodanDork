@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Favicon Shodan Dork",
+  "version": "1.0",
+  "description": "Generate the Shodan dork for favicon.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "contextMenus",
+    "clipboardWrite",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js", "murmurHash3js.js"]
+    }
+  ]
+}
