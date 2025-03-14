@@ -1,5 +1,5 @@
 # FaviconShodanDork
-Firefox addon that generates the Shodan dork for a favicon, allowing users to quickly obtain the hash of a favicon and search for matching servers on Shodan.
+Firefox addon that generates the Shodan dork for a favicon, allowing users to quickly obtain the hash of a favicon and search for matching infrastructure on Shodan. Inspired by [magicfav tool](https://github.com/alanbriangh/magicfav).
 
 ## Installation
 - Download the latest packaged addon in [releases](https://github.com/m074/FaviconShodanDork/releases).
